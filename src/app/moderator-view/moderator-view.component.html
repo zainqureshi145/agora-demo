@@ -1,11 +1,16 @@
 <div class="container">
-    <div class="notification is-primary">
+    <!-- <div class="notification is-primary"> -->
+        <!-- <div id = "playerContainer"> -->
+        <div>
         <video width="1280" height="720">
-            <source src="" type="video/mp4">
+            <!-- <source src="https://www.youtube.com/watch?v=0lanb-qwZFE&t=15s" type="video/mp4"> -->
+                <!-- <source src = "playerContainer"> -->
         </video>
-      Moderator View
     </div>
 </div>
 
-<button (click) = "onStartCallHandler()" class="button is-success">Start Call</button>
-<button (click) = "onLeaveCallHandler()" class="button is-danger">Leave Call</button>
+<div class="container has-text-centered">
+    <h1 class="title has-text-centered">Moderator View</h1>
+    <button (click) = "onStartCallHandler()" class="button is-success">Start Call</button>
+    <button (click) = "onLeaveCallHandler()" class="button is-danger">Leave Call</button>
+</div>

@@ -10,7 +10,7 @@ import { SpeakerViewComponent } from './speaker-view/speaker-view.component';
   declarations: [
     AppComponent,
     ModeratorViewComponent,
-    SpeakerViewComponent
+    SpeakerViewComponent,
   ],
   imports: [
     BrowserModule,
